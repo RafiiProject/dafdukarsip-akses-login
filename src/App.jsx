@@ -48,7 +48,7 @@ function App() {
             
             <Route index element={<RequireAuth><Home /></RequireAuth>}></Route>
 
-            <Route path="/tengah" element={<NotRequireAuth>Link to="https://dafdukarsip-tengah.vercel.app/"</NotRequireAuth>}></Route>
+            
             {/* <Route path="/userutara">
               <Route index element={<RequireAuth><Listutara columns={utaraColumns} /></RequireAuth>}></Route>
               <Route path="/utara/:id" element={<RequireAuth><Single columns={utaraColumns} /></RequireAuth>}></Route>
