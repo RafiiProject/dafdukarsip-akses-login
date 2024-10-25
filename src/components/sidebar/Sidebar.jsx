@@ -54,8 +54,8 @@ const Sidebar = () => {
                         </li>
                     </Link>
                     <p className="title">atau</p>
-                    <Link to="https://arsip-dafduk.vercel.app/login">
-                        <li className={isActive("https://arsip-dafduk.vercel.app/login") ? "active" : ""}>
+                    <Link to="https://dafdukarsip-admin.vercel.app/login">
+                        <li className={isActive("https://dafdukarsip-admin.vercel.app/login") ? "active" : ""}>
                             <PersonOutlinedIcon className="icon" />
                             <span>LOGIN SEBAGAI ADMIN</span>
                         </li>
