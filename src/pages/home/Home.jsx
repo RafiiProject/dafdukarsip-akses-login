@@ -4,7 +4,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Widget from "../../components/widget/Widget";
 import { useState, useEffect } from "react";
 import Loader from "../../components/loader/Loader"; // Import Loader Component
-import { Link, useNavigate, useLocation } from "react-router-dom";
+
 
 
 const Home = () => {
